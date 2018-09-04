@@ -41,7 +41,7 @@ number_of_splits
 # In[11]:
 
 
-split_data_splits = np.split(split_data, number_of_splits)
+split_data_splits = np.array_split(split_data, number_of_splits)
 
 
 # In[12]:
